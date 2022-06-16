@@ -2430,6 +2430,7 @@
 }
 
 .box-items .box-item .image a {
+.popup-box .image
 	display: block;
 	font-size: 0;
 }
@@ -2445,7 +2446,7 @@
 border:10px solid #1d1d1d;
 text-align: center;
 height: 450px!important;
-width: 450px!important;
+width: auto !important;
 Background:#4c5157 !important;
 }
 .preview-image img
@@ -2987,7 +2988,7 @@ iframe, object {
 }
 
 .popup-box .image {
-	height: 560px;
+	height: auto;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
