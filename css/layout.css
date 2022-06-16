@@ -2440,6 +2440,20 @@
 	position: relative;
 	top: 0;
 }
+.preview-image
+{
+border:10px solid #1d1d1d;
+text-align: center;
+height: 450px!important;
+width: 450px!important;
+Background:#4c5157 !important;
+}
+.preview-image img
+{
+width: auto !important;
+height: 100% !important;
+margin: auto !important;
+}
 
 .box-items .box-item .image .info {
 	text-align: center;
